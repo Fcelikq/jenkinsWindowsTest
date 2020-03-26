@@ -45,7 +45,7 @@ public class BaseTest {
 
         try {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("app", "C:\Users\Administrator\Desktop\Jenkins_node\workspace\windowsTest\Project\projectCafe.exe");
+            capabilities.setCapability("app", "C:\\Users\\Administrator\\Desktop\\Jenkins_node\\workspace\\windowsTest\\Project\\projectCafe.exe");
             driver = new WindowsDriver(new URL("http://127.0.0.1:4723"), capabilities);
             driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
