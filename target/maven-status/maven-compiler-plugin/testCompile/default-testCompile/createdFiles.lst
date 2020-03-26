@@ -1,0 +1,6 @@
+Utilities\PageBase.class
+Utilities\Configuration.class
+com\CalculatorTest.class
+Pages\CalculatePage.class
+Utilities\BaseTest.class
+Utilities\ExtentReportUtilities.class
