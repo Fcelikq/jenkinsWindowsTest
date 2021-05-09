@@ -16,7 +16,7 @@ public class windowsTest {
     public void Setup()  {
         try {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("app", "./Project/projectCafe.exe");
+            capabilities.setCapability("app", "appPath");
             driver = new WindowsDriver(new URL("http://127.0.0.1:4723"), capabilities);
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         }catch(Exception e){
