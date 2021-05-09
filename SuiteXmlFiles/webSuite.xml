@@ -4,7 +4,7 @@
 <suite name="Web Suite" preserve-order="true" parallel="tests" thread-count="1">
     <test verbose="1" name="chrome" >
            <classes>
-            <class name="com.CalculatorTest"/>
+            <class name="com.windowsTest"/>
         </classes>
     </test>
 
