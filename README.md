@@ -12,8 +12,8 @@ Java 8 or above
 Admin rights on system
 Developer mode should be on | Settings > For developers
 Java, Maven
-Windows Kits    |   https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
-WinAppDriver    |   https://github.com/Microsoft/WinAppDriver/releases
+* Windows Kits    |   https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+* WinAppDriver    |   https://github.com/Microsoft/WinAppDriver/releases
 
 
 # Steps:
@@ -22,8 +22,8 @@ WinAppDriver    |   https://github.com/Microsoft/WinAppDriver/releases
 # How to find locators
 Double click inspect.exe
 Path:
-C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64
-C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86
+* C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x64
+* C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86
 
 # Useful links:
 https://github.com/Microsoft/WinAppDriver/tree/master/Tests/UWPControls
@@ -35,8 +35,8 @@ window 10 sdk | https://developer.microsoft.com/en-us/windows/downloads/windows-
 
 
 # Locator mapping to methods
-findElementByAccessibilityId    AutomationId
-findElementByName               Name
-findElementById                 RuntimeId (decimal)
-findElementByClassName          ClassName
-findElementByTagName            LocalizedControlType (upper camel case)
+* findElementByAccessibilityId    AutomationId
+* findElementByName               Name
+* findElementById                 RuntimeId (decimal)
+* findElementByClassName          ClassName
+* findElementByTagName            LocalizedControlType (upper camel case)
